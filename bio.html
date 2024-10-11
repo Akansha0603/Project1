@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Shrivastava Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Prashant Shrivastava</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home-section" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-section" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume-section" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#contact-section" id="openpop" class="nav-link open-button" onclick="openForm()">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav> 
+      <section id="home-section" class="hero">
+        <div class="home-slider  owl-carousel">
+          <div class="slider-item">
+            <div class="overlay"></div>  
+            <div class="container">       
+              <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+                <div class="one-third js-fullheight order-md-last img" style="background-image:url(WhatsApp_Image_2024-09-30_at_4.40.43_PM-removebg-preview.png);">
+                  <div class="overlay"></div>
+                </div>
+                <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                  <div class="text">
+                    <span class="subheading">Hello!</span>
+                    <h1 class="mb-4 mt-3">I'm
+                      <span> Prashant Shrivastava </span></h1>
+                    <span id="typing-animation"></span><br><br>
+                    <p>
+                      <a href="https://www.linkedin.com/in/prashant-shrivastava-318015114?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="btn yellow-btn">My Linkedin</a>
+                      <a href="https://github.com/PrashantShri" target="_blank" class="btn btn-white btn-outline-white">My Github</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+      </section>
+      <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+        <div class="container">
+          <div class="row">
+            <div class="row d-flex align-items-stretch">
+              <div class="col-md-6 col-lg-5 d-flex left-side">
+                <div class="img-about img d-flex align-items-stretch">
+                  <div class="overlay">
+                    <div class="row ">
+                      <div class="col-sm-6 col-md-5 abb">
+                        <div class="about-img">
+                          <img src="WhatsApp Image 2024-09-30 at 9.52.58 PM.jpeg" class="img-fluid rounded b-shadow-a" alt="">
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-7 info">
+                        <div class="about-info">
+                          <p class="intro">
+                            <span class="title-s">Name:
+                            </span>
+                            <span>Prashant Shrivastava</span></p>
+                          <p>
+                            <span class="title-s">Job Role:
+                            </span>
+                            <span>AWS Cloud Support Engineer</span></p>
+                          <p>
+                            <span class="title-s">Address:
+                            </span>
+                            <span>Nagpur, Maharashtra</span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-mf">
+                      <p class="title-s">Skills</p>
+                      <span> AWS Cloud Services </span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span> Linux (Ubuntu+AMI) </span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span> Scripting - Bash </span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span> Version Control System - Git, GitHub </span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span> Containerization - Docker </span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span> CI / CD - Jenkins </span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span> Infrastructure Management - Terraform </span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span> Configuration Management - Ansible </span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span> Orchestration - Kubernetes </span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span> Programming Language - Python </span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+              <div class="col-md-6 col-lg-7 right-side">
+                <div class="row justify-content-start pb-3">
+                  <div class="col-md-12 heading-section ftco-animate fadeInUp ftco-animated">   
+                    <h1 class="big">About</h1>
+                    <h2 class="mb-4">About Me</h2>    
+                    <p>AWS Cloud and DevOps Engineer, adept in architecting and deploying scalable cloud solutions. Proficient in AWS services such as EC2, S3, RDS, VPC, IAM, CloudWatch, and more, with hands-on experience in provisioning and configuring cloud infrastructure. Skilled in implementing security best practices, automating deployment processes, and optimizing workflows using DevOps tools like Terraform, Jenkins, Docker, and Git.                    
+                     Passionate about continuous learning and staying updated with the latest industry trends and best practices. Committed to driving innovation and efficiency in web development projects through the integration of cloud computing and DevOps methodologies.                 
+                      Eager to leverage my diverse skill set, encompassing AWS cloud services, DevOps technologies, and proficiency in Python, Java, and SQL, to contribute to the success of your innovative projects. Excited to collaborate with cross-functional teams and deliver exceptional results that exceed expectations.</p>
+                    <ul class="about-info mt-4 px-md-0 px-2">
+                      <li class="d-flex">
+                        <span>Profile:</span>
+                        <span>Cloud Engineer &amp; Devops Engineer</span></li>
+                      <li class="d-flex">
+                        <span>Domain:</span>
+                        <span> Cloud Computing and Infrastructure Management</span></li>
+                      <li class="d-flex">
+                        <span>Education:</span>
+                        <span>Bachelor of Engineering</span></li>
+                      <li class="d-flex">
+                        <span>Language:</span>
+                        <span>English, Hindi</span></li>
+                      <li class="d-flex">
+                        <span>Other Skills:</span>
+                        <span>Observational skills, Technical proficiency, Communication skills, Time management, Adaptability.</span></li>
+                      <li class="d-flex">
+                        <span>Interest:</span>
+                        <span>New Technologies, Traveling, Music</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="text">
+                    <p>
+                        <a href="https://www.linkedin.com/in/prashant-shrivastava-318015114?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="btn yellow-btn">LinkedIn</a>
+                    </p>
+                  <div class="counter-wrap ftco-animate d-flex mt-md-3 item-animate">
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ftco-section ftco-no-pb" id="resume-section">
+        <div class="container">
+          <div class="row justify-content-center ">
+            <div class="col-md-10 heading-section text-center ftco-animate">
+              <h1 class="big big-2">Resume</h1>
+              <h2 class="mb-4">Resume</h2>
+              <p>Dedicated and adaptable professional with a diverse background spanning sales, management, and technical roles. Skilled in team leadership and workload management, with a track record of ensuring timely delivery and exceeding expectations. Proficient in documentation and quality control processes, adept at navigating audits and maintaining standards. Experience in client management and relationship building with major industry players. Currently transitioning into a technical role, with hands-on experience in AWS cloud Services, Devops Technologies and Java development. Seeking opportunities to leverage managerial and technical expertise to contribute to the success of a reputable organization and further enhance skills.</p>
+            </div>
+          </div>
+          <div class="row">
+            <h1 class="big-4">Experience</h1>
+            <div class="underline"></div>
+          </div>
+          <div class="row">
+            <!-- <div class="col-md-6"> -->  
+              <div class="resume-wrap ftco-animate">
+                <span class="date">Jan-2024-Present</span>
+                <h2>AWS Cloud Support Engineer</h2>
+                <span class="position">Horde Media</span>
+                <p class="mt-4">
+                  <ul>
+                    <li>Working in deployment of web application based on Amazon Web Services.</li>
+                    <li>Provisioning and configuring cloud infrastructure components such as EC2 instances, S3 buckets, RDS databases, and VPCs.</li>
+                    <li>Implemented security best practices including IAM policies, security groups, and encryption mechanisms.</li> 
+                    <li>Assist in the design and implementation of scalable, reliable, and cost-effective cloud solutions.</li>
+                    <li>Monitoring AWS infrastructure using CloudWatch and other monitoring tools to ensure high availability and performance.</li>
+                    <li>Play an active role in disaster recovery and backup planning,Troubleshoot issues related to AWS services and infrastructure.</li>
+                    <li>Collaborated closely with development teams to understand requirements and optimize deployments on AWS Cloud.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          <div class="row">
+            <h1 class="big-4">Education</h1>
+            <div class="underline"></div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12 study">
+              <div class="resume-wrap ftco-animate">
+                <span class="date">2011-2015</span>
+                <h2>Bachelor of Engineering</h2>
+                <span class="position">RGPV University</span>
+                <p class="mt-4">Grade: First class distinction.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center resume mt-5">
+            <div class="col-md-6 text-center ftco-animate">
+              <p>
+                <a href="66fbf2314e9cf.docx" class="btn yellow-btn">Download CV</a>
+              </p>
+            </div>
+          </div>
+    </div>
+      </section>
+      <div class="ftco-hireme img margin-top" style="background-image: url(bg_1.jpg)">
+        <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7 ftco-animate text-center text-head">
+            <h2>Here's my<span>
+                <button id="gitbtn" class="btn yellow-btn" onclick="gitClick()">GitHub</button>
+              </span>
+            </h2>
+            <div class="heading">
+              <h4>
+                Believe In (CLCI) - Continuous Learning Continuous Improvement
+              </h4>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="form-popup" id="myForm">
+        <div class="right-side">
+        <form action="/action_page.php" class="form-container">      
+        <label for="fname"><b>First Name</b></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname"><b>Last Name</b></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+        <label for="subject"><b>Subject</b></label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:60px; width:300px; margin-bottom: 20px;"></textarea>    
+        <button type="submit" class="btn" onclick="alert()">Submit</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </div>
+        <div class="left-side">
+          <img src="pngtree-women-contact-support-flat-illustration-vector-png-image_2269867-removebg-preview.png">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">Nagpur, Maharashtra</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+91 9584425168</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">meprashant1994@gmail.com</div>
+          </div>
+        </div>
+      </form>
+      </div>
+      <script src="function.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

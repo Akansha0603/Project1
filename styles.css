@@ -1,0 +1,553 @@
+.container{
+    max-width: 1200px;
+    padding: 0;
+}
+body {
+        font-family: "Poppins", Arial, sans-serif;
+        background: #000000 !important;
+        font-size: 16px;
+        line-height: 1.8;
+        font-weight: 400;
+        color: #fff !important;
+}
+
+ .navbar-brand {
+    font-weight: 900;
+    font-size: 24px;
+    font-style: normal;
+    color: #fff;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    text-decoration: none;
+}
+.navbar-toggler {
+    line-height: 1;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    border: none;
+    color: rgba(255, 255, 255, 0.5) !important;
+    cursor: pointer;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em;
+}
+.navbar-collapse {
+    flex-grow: 1;
+    align-items: center;
+}
+.navbar-expand-lg .navbar-toggler {
+    display: none;
+}
+.nav-link {
+    display: block;
+}
+.navbar .container {
+    padding: 0 20px 0 20px;
+}
+.navbar {
+    background-color: black !important;
+    z-index: 1 !important;
+}
+.navbar .navbar-nav > .nav-item > .nav-link {
+    font-size: 16px;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    font-weight: 400;
+    opacity: 1 !important;
+    text-decoration: none;
+    position: relative;
+}
+.navbar .navbar-nav > .nav-item > .nav-link:active{
+    color: #ffbd39 !important;    
+}
+
+.owl-carousel.home-slider {
+    position: relative;
+    height: 750px;
+    z-index: 0;
+}
+.owl-carousel.home-slider .slider-item .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    opacity: 0;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text {
+    height: 600px;
+    z-index: 0;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .one-third {
+    width: 50%;
+    position: relative;
+    z-index: -1;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .text {
+    position: relative;
+    z-index: 1;
+}
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-touch-callout: none;
+}
+.owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
+    position: absolute;
+    left: 8%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 50%;
+}
+.owl-carousel.home-slider .slider-item .slider-text .subheading {
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffbd39;
+}
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 800;
+}
+.owl-carousel.home-slider .slider-item .slider-text h1 span {
+    font-weight: 800;
+    color: #ffbd39;
+}
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 800;
+}
+.owl-carousel.home-slider .owl-nav {
+    position: absolute;
+    bottom: 60px !important;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+} 
+#typing-animation {
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(20, end) infinite;
+}
+.btn {
+    text-decoration: none;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600 !important;
+}
+.btn.btn-white.btn-outline-white {
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    background: transparent !important;
+    color: #fff !important;
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+a.btn.yellow-btn {
+    background: #ffbd39 !important;
+    border: 1px solid #ffbd39 !important;
+    color: #000000 !important;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+.info{
+    align-content: center;
+}
+.about-img{
+    padding-bottom: 30px;
+}
+.skill-mf .progress {
+    background-color: #cde1f8;
+    margin: 0.5rem 0 1.2rem;
+    border-radius: 0;
+    height: 0.7rem;
+}
+.progress {
+    height: 10px;
+    box-shadow: none;
+    background: #1a1a1a;
+    overflow: visible;
+    display: flex;
+    font-size: 0.75rem;
+}
+.skill-mf .progress .progress-bar {
+    height: 0.7rem;
+    background-color: #ffbd39;
+}
+.progress-bar {
+    background: #ffbd39;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #000000;
+    font-weight: 600;
+    position: relative;
+    overflow: visible;
+    border-radius: 2px;
+    width: 99% !important;
+}
+
+.heading-section h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0;
+}
+.heading-section h1.big {
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    left: 0;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    font-weight: 900;
+}
+.heading-section {
+    position: relative;
+}
+.ftco-about ul.about-info li span:first-child {
+    font-weight: 600;
+    color: #fff;
+    width: 130px;
+}
+.ftco-about ul.about-info li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.ftco-about ul.about-info li span {
+    width: calc(100% - 130px);
+}
+.abb{
+    padding: 0 !important;
+}
+.ftco-about .right-side {
+    padding: 0 35px 20px;
+}
+.ftco-about .left-side {
+    padding: 0 35px 0 20px;
+}
+.resume-wrap {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    width: 100%;
+}
+.ftco-about {
+    padding-bottom: 80px;
+}
+.study{
+    width: 100%;
+    text-align: center;
+}
+.resume-wrap .date {
+    font-weight: 900;
+    font-size: 26px;
+    color: #ffbd39;
+}
+.resume-wrap h2 {
+    font-size: 26px;
+}
+.resume-wrap .position {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.underline {
+    width: 100%;
+    height: 4px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(244, 244, 125) 20%, rgb(238, 238, 36) 50%, #ffbd39 100%);
+    margin: 5px 0 20px 0;
+    opacity: 50%;
+}
+.big-4 {
+    font-size: 42px;
+    margin: 0 auto;
+    transform: scaleX(1.2);
+    line-height: 1.5;
+    color: white;
+    font-weight: 400;
+    width: auto  !important;
+}
+.heading-section h1.big.big-2 {
+    right: 0;
+    left: -40px;
+}
+.ftco-hireme.img.margin-top{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 20px;
+    place-content: center;
+    height: 300px;
+}
+.ftco-hireme h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+}
+.ftco-hireme h4{
+    line-height: 1.5;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.yellow-btn {
+    background: #ffbd39 !important;
+    border: 1px solid #ffbd39 !important;
+    color: #000000 !important;
+    padding: 15px 20px !important;
+    border-radius: 30px !important;
+}
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 6px;
+    left: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    background-color: #454141;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 370px;
+    padding: 10px;
+  }
+  .form-popup.left-side {
+    padding-right: 10px !important;
+}
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 300px;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: #ffbd39;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+   .form-popup .left-side{
+    float: right;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+    width: 50%;
+  }
+
+ .left-side .details{
+    margin: 14px;
+    text-align: center;
+  }
+   .left-side .details i{
+    font-size: 30px;
+    color: #3e2093;
+    margin-bottom: 10px;
+  }
+.left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+  }
+   .left-side .details .text-one,
+   .left-side .details .text-two{
+    font-size: 14px;
+    color: #afafb6;
+  }
+.form-popup .right-side{
+    width: 50%;
+    float: left;
+    padding-left: 10px !important;
+    }
+.right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: #3e2093;
+  }
+  .right-side .input-box{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .right-side .message-box{
+    min-height: 110px;
+  }
+  .right-side .input-box textarea{
+    padding-top: 6px;
+  }
+  .right-side .button{
+    display: inline-block;
+    margin-top: 12px;
+  }
+  .right-side .button input[type="button"]{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #3e2093;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input[type="button"]:hover{
+    background: #5029bc;
+  }
+
+
+
+
+
+@media (max-width: 1023px) {
+    .navbar-expand-lg .navbar-toggler{
+        display: block;
+    }
+    .owl-carousel.home-slider .slider-item .slider-text h1{
+        font-size: 20px;
+    }
+    .owl-carousel.home-slider .slider-item .slider-text .one-forth .text{
+        left: 5%;
+    }
+    #typing-animation{
+        font-size: 20px;
+    }
+    .owl-carousel.home-slider .slider-item .slider-text{
+        height: 400px;
+    }
+    .owl-carousel.home-slider .slider-item .slider-text .one-third{
+        height: 300px;
+        background-position: top;
+    }
+    .owl-carousel.home-slider{
+        height: 500px;
+    }
+    .heading-section h1.big{
+        left: 10px;
+        top: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .row{
+        margin: 0 !important;
+    }
+    .owl-carousel.home-slider .slider-item .slider-text .one-forth .text{
+        left: 0;
+        transform: translateY(60%);
+        width: 100%;
+        text-align: center;
+    }
+    .owl-carousel.home-slider .slider-item .slider-text .one-third{
+        width: 100%;
+        background-size: cover;
+    }
+    .ftco-about .left-side{
+        text-align: center;
+        padding: 0 20px 30px 35px !important;
+    }
+    .abb{
+        text-align: -webkit-center;
+    }
+    .about-img{
+        width: 200px;
+    }
+    .ftco-about .right-side{
+        text-align: center;
+        padding: 0 20px 0 35px !important;
+    }
+    .heading-section h2{
+        font-size: 30px;
+    }
+    .heading-section h1.big{
+        display: none;
+    }
+    .hero {
+        padding-bottom: 60px;
+    }
+    .owl-carousel.home-slider{
+        height: 620px;
+    }
+    .form-popup{
+        left: 20px;
+        right: 20px;
+        max-width: 350px;
+        justify-self: center;
+        max-height: 500px;
+        overflow-x: scroll;
+    }
+    .form-popup .right-side {
+        width: 100%;
+        float: left;
+    }
+    .form-popup .left-side{
+        width: 100%;
+    }
+    .fixed-top{
+        border: 1px solid;
+    }
+}
